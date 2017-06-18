@@ -6,37 +6,105 @@
   <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+
   <!-- Header -->
   <header class="flex-container">
-    <div class="header-container">
-    <div class="logo">
-      <img src="./resources/media/img-tea-cozy-logo.png" />
-    </div>
+    <img src="./resources/media/img-tea-cozy-logo.png" />
     <nav>
       <span>
-        <a href="#">Mission</a>
+        <a href="#mission">Mission</a>
       </span>
       <span>
-        <a href="#">Featured Tea</a>
+        <a href="#featured">Featured Tea</a>
       </span>
       <span>
-        <a href="#">Locations</a>
+        <a href="#locations">Locations</a>
       </span>
     </nav>
-  </div>
   </header>
 
   <!-- Begin Content -->
+    <div class="main-container">
 
-  <div class="main-container">
     <!-- Splice One - Mission -->
-    <div class="mission-banner">
-      <!-- <img src="./resources/media/img-mission-background.jpg" /> -->
-      <div class="mission-overlay">
+    <div id="mission" class="flex-container">
+      <div class="content-overlay">
         <h2>Our Mission</h2>
         <h4>Handpicked, Artisinally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
       </div>
     </div>
-  </div>
-</body>
-</html>
+
+
+    <!-- Splice Two - Features -->
+
+    <div id="featured">
+      <h2>Tea of the Month</h3>
+        <h4>What's Steeping at the Tea Cozy?</h4>
+        <div class="flex-container specials">
+          <div class="card">
+            <img src="./resources/media/img-berryblitz.jpg" />
+            <span>Fall Berry Blitz Tea</span>
+          </div>
+          <div class="card">
+            <img src="./resources/media/img-spiced-rum.jpg" />
+            <span>Spiced Rum Tea</span>
+          </div>
+          <div class="card">
+            <img src="./resources/media/img-donut.jpg" />
+            <span>Seasonal Donuts</span>
+          </div>
+          <div class="card">
+            <!-- Sample website and design spec repeats donut image in this card; chose to use myrtle avenue image instead -->
+            <img src="./resources/media/img-myrtle-ave.jpg" />
+            <span>Myrtle Avenue Tea</span>
+          </div>
+          <div class="card">
+            <img src="./resources/media/img-bedford-bizarre.jpg" />
+            <span>Bedford Bizarre Tea</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Splice Three - Locations -->
+      <div id="locations">
+        <h2>Locations</h2>
+        <div class="flex-container location">
+          <div class="location-card">
+            <h3>Downtown</h3>
+            <p>384 West 4th St</p>
+            <p>Suite 108</p>
+            <p>Portland, Maine</p>
+          </div>
+          <div class="location-card">
+            <h3>East Bayside</h3>
+            <p>3433 Phisherman's Avenue</p>
+            <p>(Northwest Corner)</p>
+            <p>Portland, Maine</p>
+          </div>
+          <div class="location-card">
+            <h3>Oakdale</h3>
+            <p>515 Crescent Avenue</p>
+            <p>Second Floor</p>
+            <p>Portland, Maine</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Splice Four - Contact -->
+      <div id="contact">
+        <div class="flex-container details">
+          <h2>The Tea Cozy</h2>
+          <h5>contact@theteacozy.com</h5>
+          <h5>917-555-8904</h5>
+        </div>
+      </div>
+
+
+      <!-- Footer -->
+
+      <footer>
+        <p>copyright The Tea Cozy 2017</p>
+      </footer>
+    </div>
+    </body>
+    </html>
